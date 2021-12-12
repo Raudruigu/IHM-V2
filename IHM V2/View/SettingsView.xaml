@@ -69,14 +69,15 @@
         <TextBox Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3"/>
         <TextBox Grid.Row="7" Grid.Column="10" Grid.ColumnSpan="5"/>
 
-        <Button Grid.Column="3" Grid.Row="9" Content="Add" FontSize="20" FontWeight="Bold"/>
-        <Button Grid.Column="5" Grid.Row="9" Content="Remove" FontSize="20" FontWeight="Bold" />
-        <Button Grid.Column="10" Grid.Row="9" Content="Add" FontSize="20" FontWeight="Bold"/>
-        <Button Grid.Column="12" Grid.Row="9" Content="Remove" FontSize="20" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Button Grid.Column="3" Grid.Row="9" Content="Add" FontSize="20" FontWeight="Bold" Style="{DynamicResource NavButton}"/>
+        <Button Grid.Column="5" Grid.Row="9" Content="Remove" FontSize="20" FontWeight="Bold" Style="{DynamicResource NavButton}" />
+        <Button Grid.Column="10" Grid.Row="9" Content="Add" FontSize="20" FontWeight="Bold" Style="{DynamicResource NavButton}"/>
+        <Button Grid.Column="12" Grid.Row="9" Content="Remove" FontSize="20" FontWeight="Bold" Grid.ColumnSpan="3" Style="{DynamicResource NavButton}"/>
 
         <DataGrid Grid.Row="11" Grid.ColumnSpan="5" Grid.Column="2"/>
         <DataGrid Grid.Row="11" Grid.Column="9" Grid.ColumnSpan="7" />
 
-        <Button Grid.Row="13" Grid.Column="6" Grid.ColumnSpan="4" Content="Save parameters" FontSize="20" FontWeight="Bold" />
+        <Button Grid.Row="13" Grid.Column="6" Grid.ColumnSpan="4" Content="Save parameters" FontSize="20" FontWeight="Bold" Style="{DynamicResource NavButton}" />
+        <TextBlock Text="Version 3.0.0" Grid.Row="14" Foreground="White" VerticalAlignment="Bottom" Grid.ColumnSpan="3"/>
     </Grid>
 </Page>

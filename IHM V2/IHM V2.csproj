@@ -9,10 +9,16 @@
 
   <ItemGroup>
     <None Remove="View\inconnu.png" />
+    <None Remove="View\PauseButton.png" />
+    <None Remove="View\PlayButton.png" />
+    <None Remove="View\StopButton.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="View\inconnu.png" />
+    <Resource Include="View\PauseButton.png" />
+    <Resource Include="View\PlayButton.png" />
+    <Resource Include="View\StopButton.png" />
   </ItemGroup>
 
 </Project>

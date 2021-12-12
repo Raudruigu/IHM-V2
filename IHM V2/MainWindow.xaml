@@ -22,10 +22,10 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.ColumnSpan="4">
-            <Button Content="Run Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="RunBackupBtn" Background="#FFEEECEC" BorderBrush="Black"/>
-            <Button Content="Manage Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="ManageBackupBtn" Background="#FFEEECEC" BorderBrush="Black"/>
-            <Button Content="New Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="NewBackupBtn" Background="#FFEEECEC" BorderBrush="Black"/>
-            <Button Content="Settings" Width="200" FontSize="18" FontWeight="Bold" Click="SettingsBtn" Background="#FFEEECEC" BorderBrush="Black"/>
+            <Button Content="Run Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="RunBackupBtn" Background="#FFEEECEC" BorderBrush="Black" Style="{DynamicResource NavButton}"/>
+            <Button Style="{DynamicResource NavButton}" Content="Manage Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="ManageBackupBtn" Background="#FFEEECEC" BorderBrush="Black"/>
+            <Button Content="New Backup Job" Width="200" FontSize="18" FontWeight="Bold" Click="NewBackupBtn" Background="#FFEEECEC" BorderBrush="Black" Style="{DynamicResource NavButton}"/>
+            <Button Content="Settings" Width="200" FontSize="18" FontWeight="Bold" Click="SettingsBtn" Background="#FFEEECEC" BorderBrush="Black" Style="{DynamicResource NavButton}"/>
         </StackPanel>
 
         <TextBlock Text="Welcome to EASYSAVE by ProSoft" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" FontSize="25" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
