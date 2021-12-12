@@ -8,7 +8,32 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ManageBackupJobsView">
 
-    <Grid>
-        
+    <Grid Background="#FF171717">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" Text="Champ de réception erreur/réussite&#10;aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" HorizontalAlignment="Center" FontSize="20" FontWeight="Normal" Foreground="White"/>
+
+        <Button Grid.Column="2" Grid.Row="2" Content="Modify" FontSize="20" FontWeight="Bold"/>
+        <Button Grid.Column="4" Grid.Row="2" Content="Delete" FontSize="20" FontWeight="Bold"/>
+
+        <DataGrid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="5"/>
+
+        <TextBlock Text="Version 3.0.0" Grid.Row="5" Foreground="White" VerticalAlignment="Bottom"/>
     </Grid>
 </Page>
